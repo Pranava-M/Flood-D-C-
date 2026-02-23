@@ -7,7 +7,6 @@ public class FloodItGame extends JFrame {
             Color.RED, Color.GREEN, Color.BLUE,
             Color.YELLOW, Color.MAGENTA, Color.ORANGE
     };
-
     private final String[] COLOR_NAMES = {
             "Red", "Green", "Blue", "Yellow", "Magenta", "Orange"
     };
@@ -392,4 +391,5 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
