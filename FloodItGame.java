@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
-
 public class FloodItGame extends JFrame {
 
     private final Color[] ALL_COLORS = {
@@ -392,4 +391,5 @@ public class FloodItGame extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(FloodItGame::new);
     }
+
 }
