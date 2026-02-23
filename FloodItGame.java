@@ -3,7 +3,6 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 public class FloodItGame extends JFrame {
-
     private final Color[] ALL_COLORS = {
             Color.RED, Color.GREEN, Color.BLUE,
             Color.YELLOW, Color.MAGENTA, Color.ORANGE
@@ -393,3 +392,4 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
