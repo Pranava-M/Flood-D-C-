@@ -10,7 +10,6 @@ public class FloodItGame extends JFrame {
     private final String[] COLOR_NAMES = {
             "Red", "Green", "Blue", "Yellow", "Magenta", "Orange"
     };
-
     private int SIZE = 10;
     private int COLOR_COUNT = 6;
     private final int CELL = 40;
@@ -391,5 +390,6 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
