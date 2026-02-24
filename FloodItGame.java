@@ -32,7 +32,6 @@ public class FloodItGame extends JFrame {
         setTitle("Flood-It Pro (BFS + D&C + Greedy)");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
-
         createToolbar();
         createBoard();
         createStatusPanel();
@@ -387,6 +386,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
