@@ -18,7 +18,6 @@ public class FloodItGame extends JFrame {
     private boolean vsBot = false;
     private boolean playerTurn = true;
     private boolean gameOver = false;
-
     private Stack<int[][]> undo = new Stack<>();
     private Stack<int[][]> redo = new Stack<>();
 
@@ -389,6 +388,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
