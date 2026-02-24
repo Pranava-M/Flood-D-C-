@@ -13,7 +13,6 @@ public class FloodItGame extends JFrame {
     private int SIZE = 10;
     private int COLOR_COUNT = 6;
     private final int CELL = 40;
-
     private int[][] grid;
     private int moves = 0;
     private boolean vsBot = false;
@@ -390,6 +389,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
