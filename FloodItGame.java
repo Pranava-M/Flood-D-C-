@@ -20,7 +20,6 @@ public class FloodItGame extends JFrame {
     private boolean gameOver = false;
     private Stack<int[][]> undo = new Stack<>();
     private Stack<int[][]> redo = new Stack<>();
-
     private Board board;
     private JLabel movesLabel;
     private JLabel hintLabel;
@@ -388,6 +387,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
