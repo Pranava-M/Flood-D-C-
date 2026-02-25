@@ -54,7 +54,6 @@ public class FloodItGame extends JFrame {
         undoBtn = new JButton("Undo");
         redoBtn = new JButton("Redo");
         JButton hintBtn = new JButton("Hint");
-
         newBtn.addActionListener(e -> newGame());
         undoBtn.addActionListener(e -> undoMove());
         redoBtn.addActionListener(e -> redoMove());
@@ -382,6 +381,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
