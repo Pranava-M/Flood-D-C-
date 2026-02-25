@@ -47,7 +47,6 @@ public class FloodItGame extends JFrame {
         modeBox = new JComboBox<>(new String[]{"Single Player", "Player vs Bot"});
         sizeBox = new JComboBox<>();
         colorBox = new JComboBox<>();
-
         for (int i = 4; i <= 14; i++) sizeBox.addItem(i);
         for (int i = 2; i <= 6; i++) colorBox.addItem(i);
 
@@ -384,6 +383,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
