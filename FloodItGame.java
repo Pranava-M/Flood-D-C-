@@ -96,7 +96,6 @@ public class FloodItGame extends JFrame {
         SIZE = (Integer) sizeBox.getSelectedItem();
         COLOR_COUNT = (Integer) colorBox.getSelectedItem();
         vsBot = modeBox.getSelectedIndex() == 1;
-
         grid = new int[SIZE][SIZE];
         Random r = new Random();
 
@@ -383,6 +382,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
