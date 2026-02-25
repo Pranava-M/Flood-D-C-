@@ -35,7 +35,6 @@ public class FloodItGame extends JFrame {
         createToolbar();
         createBoard();
         createStatusPanel();
-
         newGame();
 
         pack();
@@ -385,6 +384,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
