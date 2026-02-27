@@ -57,7 +57,6 @@ public class FloodItGame extends JFrame {
         undoBtn.addActionListener(e -> undoMove());
         redoBtn.addActionListener(e -> redoMove());
         hintBtn.addActionListener(e -> showHint());
-
         toolbar.add(new JLabel("Mode:"));
         toolbar.add(modeBox);
         toolbar.add(new JLabel("Size:"));
@@ -380,6 +379,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
