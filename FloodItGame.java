@@ -41,7 +41,6 @@ public class FloodItGame extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
     }
-
     private void createToolbar() {
         JPanel toolbar = new JPanel();
         modeBox = new JComboBox<>(new String[]{"Single Player", "Player vs Bot"});
@@ -381,6 +380,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
