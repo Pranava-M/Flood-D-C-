@@ -67,7 +67,6 @@ public class FloodItGame extends JFrame {
         toolbar.add(undoBtn);
         toolbar.add(redoBtn);
         toolbar.add(hintBtn);
-
         add(toolbar, BorderLayout.NORTH);
     }
 
@@ -379,6 +378,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
