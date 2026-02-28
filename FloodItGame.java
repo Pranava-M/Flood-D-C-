@@ -69,7 +69,6 @@ public class FloodItGame extends JFrame {
         toolbar.add(hintBtn);
         add(toolbar, BorderLayout.NORTH);
     }
-
     private void createBoard() {
         board = new Board();
         JPanel wrapper = new JPanel(new GridBagLayout());
@@ -378,6 +377,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
