@@ -112,7 +112,6 @@ public class FloodItGame extends JFrame {
         updateStatus();
         board.repaint();
     }
-
     private void showHint() {
         if (gameOver) return;
         int best = getBestColor();
@@ -377,6 +376,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
