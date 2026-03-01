@@ -48,7 +48,6 @@ public class FloodItGame extends JFrame {
         colorBox = new JComboBox<>();
         for (int i = 4; i <= 14; i++) sizeBox.addItem(i);
         for (int i = 2; i <= 6; i++) colorBox.addItem(i);
-
         JButton newBtn = new JButton("New Game");
         undoBtn = new JButton("Undo");
         redoBtn = new JButton("Redo");
@@ -376,6 +375,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
