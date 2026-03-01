@@ -74,7 +74,6 @@ public class FloodItGame extends JFrame {
         wrapper.add(board);
         add(wrapper, BorderLayout.CENTER);
     }
-
     private void createStatusPanel() {
         JPanel status = new JPanel(new BorderLayout());
         movesLabel = new JLabel("", JLabel.CENTER);
@@ -375,6 +374,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
