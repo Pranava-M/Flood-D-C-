@@ -129,7 +129,6 @@ public class FloodItGame extends JFrame {
 
         playerTurn = true;
     }
-
     private int getBestColor() {
         int oldColor = grid[0][0];
 
@@ -373,6 +372,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
