@@ -140,7 +140,6 @@ public class FloodItGame extends JFrame {
 
         return pickBestColor(globalCounts, neighbors, oldColor);
     }
-
     private int[] countGlobalDC(int r1, int r2, int c1, int c2) {
         int[] result = new int[COLOR_COUNT];
         if (r1 > r2 || c1 > c2) return result;
@@ -372,6 +371,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
