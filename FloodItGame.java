@@ -84,7 +84,6 @@ public class FloodItGame extends JFrame {
         status.add(hintLabel, BorderLayout.SOUTH);
         add(status, BorderLayout.SOUTH);
     }
-
     private void newGame() {
         SIZE = (Integer) sizeBox.getSelectedItem();
         COLOR_COUNT = (Integer) colorBox.getSelectedItem();
@@ -374,6 +373,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
