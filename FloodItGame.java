@@ -185,7 +185,6 @@ public class FloodItGame extends JFrame {
             }
         }
     }
-
     private boolean[] getNeighborColors(boolean[][] region) {
         boolean[] neighbor = new boolean[COLOR_COUNT];
         int[][] dir = {{1,0},{-1,0},{0,1},{0,-1}};
@@ -370,6 +369,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
