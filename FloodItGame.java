@@ -162,7 +162,6 @@ public class FloodItGame extends JFrame {
 
         return result;
     }
-
     private void markRegionBFS(int i, int j, int color, boolean[][] region) {
         Queue<Point> q = new LinkedList<>();
         q.add(new Point(i, j));
@@ -371,6 +370,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
