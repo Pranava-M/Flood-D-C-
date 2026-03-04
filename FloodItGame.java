@@ -117,7 +117,6 @@ public class FloodItGame extends JFrame {
         else
             hintLabel.setText("No good move found.");
     }
-
     private void botMove() {
         if (!vsBot || gameOver) return;
 
@@ -369,6 +368,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
