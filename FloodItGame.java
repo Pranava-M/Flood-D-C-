@@ -128,7 +128,6 @@ public class FloodItGame extends JFrame {
     }
     private int getBestColor() {
         int oldColor = grid[0][0];
-
         boolean[][] region = new boolean[SIZE][SIZE];
         markRegionBFS(0, 0, oldColor, region);
 
@@ -364,6 +363,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
