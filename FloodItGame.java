@@ -215,7 +215,6 @@ public class FloodItGame extends JFrame {
 
         return best;
     }
-
     private void floodFill(int color) {
         int old = grid[0][0];
         if (old == color || gameOver) return;
@@ -362,6 +361,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
