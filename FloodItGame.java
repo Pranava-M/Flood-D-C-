@@ -144,7 +144,6 @@ public class FloodItGame extends JFrame {
             result[grid[r1][c1]]++;
             return result;
         }
-
         int midR = (r1 + r2) / 2;
         int midC = (c1 + c2) / 2;
         int[] q1 = countGlobalDC(r1, midR, c1, midC);
@@ -363,6 +362,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
