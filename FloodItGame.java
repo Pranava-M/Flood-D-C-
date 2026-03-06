@@ -282,7 +282,6 @@ public class FloodItGame extends JFrame {
         undoBtn.setEnabled(true);
         redoBtn.setEnabled(false);
     }
-
     private void undoMove() {
         if (!undo.isEmpty() && !gameOver) {
             redo.push(copyGrid());
@@ -359,6 +358,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
