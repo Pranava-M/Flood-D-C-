@@ -153,7 +153,6 @@ public class FloodItGame extends JFrame {
 
         for (int i = 0; i < COLOR_COUNT; i++)
             result[i] = q1[i] + q2[i] + q3[i] + q4[i];
-
         return result;
     }
     private void markRegionBFS(int i, int j, int color, boolean[][] region) {
@@ -360,6 +359,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
