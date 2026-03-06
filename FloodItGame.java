@@ -218,7 +218,6 @@ public class FloodItGame extends JFrame {
         if (old == color || gameOver) return;
 
         saveState();
-
         boolean[][] visited = new boolean[SIZE][SIZE];
         Queue<Point> q = new LinkedList<>();
         q.add(new Point(0, 0));
@@ -358,6 +357,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
