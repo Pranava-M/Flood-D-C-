@@ -164,7 +164,6 @@ public class FloodItGame extends JFrame {
         region[i][j] = true;
 
         int[][] dir = {{1,0},{-1,0},{0,1},{0,-1}};
-
         while (!q.isEmpty()) {
             Point p = q.poll();
             for (int[] d : dir) {
@@ -365,6 +364,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
