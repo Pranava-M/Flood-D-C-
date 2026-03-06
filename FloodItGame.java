@@ -99,7 +99,6 @@ public class FloodItGame extends JFrame {
         playerTurn = true;
         undo.clear();
         redo.clear();
-
         undoBtn.setEnabled(false);
         redoBtn.setEnabled(false);
 
@@ -366,6 +365,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
