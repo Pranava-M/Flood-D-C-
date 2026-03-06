@@ -212,7 +212,6 @@ public class FloodItGame extends JFrame {
                 max = counts[i];
                 best = i;
             }
-
         return best;
     }
     private void floodFill(int color) {
@@ -361,6 +360,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
