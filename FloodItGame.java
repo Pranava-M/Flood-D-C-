@@ -190,7 +190,6 @@ public class FloodItGame extends JFrame {
                                 && !region[ni][nj])
                             neighbor[grid[ni][nj]] = true;
                     }
-
         return neighbor;
     }
 
@@ -355,6 +354,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
