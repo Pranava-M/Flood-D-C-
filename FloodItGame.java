@@ -123,7 +123,6 @@ public class FloodItGame extends JFrame {
             floodFill(best);
             board.repaint();
         }
-
         playerTurn = true;
     }
     private int getBestColor() {
@@ -357,6 +356,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
