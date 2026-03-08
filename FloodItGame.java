@@ -149,7 +149,6 @@ public class FloodItGame extends JFrame {
         int[] q2 = countGlobalDC(r1, midR, midC + 1, c2);
         int[] q3 = countGlobalDC(midR + 1, r2, c1, midC);
         int[] q4 = countGlobalDC(midR + 1, r2, midC + 1, c2);
-
         for (int i = 0; i < COLOR_COUNT; i++)
             result[i] = q1[i] + q2[i] + q3[i] + q4[i];
         return result;
@@ -354,6 +353,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
