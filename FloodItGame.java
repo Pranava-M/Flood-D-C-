@@ -238,7 +238,6 @@ public class FloodItGame extends JFrame {
                 }
             }
         }
-
         moves++;
         updateStatus();
         checkEnd();
@@ -353,6 +352,7 @@ public class FloodItGame extends JFrame {
     }
 
 }
+
 
 
 
