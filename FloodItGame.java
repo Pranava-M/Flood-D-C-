@@ -242,7 +242,6 @@ public class FloodItGame extends JFrame {
         updateStatus();
         checkEnd();
     }
-
     private void checkEnd() {
         int c = grid[0][0];
         for (int[] row : grid)
