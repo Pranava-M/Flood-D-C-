@@ -164,7 +164,6 @@ public class FloodItGame extends JFrame {
             for (int[] d : dir) {
                 int ni = p.x + d[0];
                 int nj = p.y + d[1];
-
                 if (ni >= 0 && nj >= 0 && ni < SIZE && nj < SIZE
                         && !region[ni][nj]
                         && grid[ni][nj] == color) {
