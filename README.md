@@ -8,6 +8,7 @@ Starting from the top-left corner, the player selects colors to "flood" the boar
 
 ## Features
 
+
 - **Configurable board** — grid size from 4×4 to 14×14, and 2–6 colors
 - **Player vs Bot mode** — compete against a greedy AI that alternates turns with you
 - **Hint system** — suggests the best color move using the same algorithm as the bot
