@@ -93,4 +93,4 @@ Cell size is fixed at 40×40 px. To change it, update the `CELL` constant in the
 
 ## License
 
-MIT — free to use, modify, and distribute.
+- free to use, modify, and distribute.
